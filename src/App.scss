@@ -1,0 +1,45 @@
+$main-color-1 : #044b87;
+$main-color-2: #1ac868;
+$secondary-bg-color: #efefef;
+$font-color-for-dark: #ffffff;
+
+#main-container{
+  width: 100%;
+  display: grid;
+  grid-template-rows: 100px 1fr 1fr;
+  grid-template-columns: 150px 1fr;
+  grid-template-areas:"header header" "nav main" "footer footer";
+
+  header {
+    .logo{
+      height: 80px;
+      width: inherit;
+      margin:10px;
+    }
+
+    background: $secondary-bg-color;
+    grid-area: header;
+  }
+
+  nav{
+    background: $main-color-1;
+    grid-area: nav;
+    min-width: 150px;
+  }
+
+  a {
+    color: $main-color-2;
+    text-decoration: none;
+  }
+
+  footer{
+    background:$main-color-1;
+    color: $font-color-for-dark;
+    grid-area: footer;
+    margin-top: 15px;
+  }
+
+  main{
+    grid-area: main;
+  }
+}
