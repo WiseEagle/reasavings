@@ -3,6 +3,7 @@ $main-color-2: #1ac868;
 $secondary-bg-color: #efefef;
 $font-color-for-dark: #ffffff;
 
+
 #main-container{
   width: 100%;
   display: grid;
@@ -10,10 +11,16 @@ $font-color-for-dark: #ffffff;
   grid-template-columns: 150px 1fr;
   grid-template-areas:"header header" "nav main" "footer footer";
 
+  .wrapper{
+    width: 1440px;
+    margin: auto;
+    max-width: 100%;
+  }
+
   header {
     .logo{
       height: 80px;
-      width: inherit;
+      width: initial;
       margin:10px;
     }
 
