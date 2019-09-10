@@ -1,0 +1,13 @@
+#main-container{
+    header {
+        .logo{
+          height: 80px;
+          width: initial;
+          margin:10px;
+        }
+    
+        background: $secondary-bg-color;
+        grid-area: header;
+        
+      }
+}

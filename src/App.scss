@@ -1,8 +1,7 @@
-$main-color-1 : #044b87;
-$main-color-2: #1ac868;
-$secondary-bg-color: #efefef;
-$font-color-for-dark: #ffffff;
-
+@import "./variable";
+@import "./components/header";
+@import "./components/main_content";
+@import "./components/menu";
 
 #main-container{
   width: 100%;
@@ -19,37 +18,6 @@ $font-color-for-dark: #ffffff;
     max-width: 100%;
   }
 
-  header {
-    .logo{
-      height: 80px;
-      width: initial;
-      margin:10px;
-    }
-
-    background: $secondary-bg-color;
-    grid-area: header;
-    
-  }
-  
-  .mainBlock{
-    grid-area: mainBlock;
-    display: grid;
-    grid-column-gap: 15px;
-    grid-template-rows:  1fr;
-    grid-template-columns: 180px 1fr;
-    grid-template-areas:"nav main";
-    width: 1440px;
-    margin: auto;
-    max-width: 100%;
-  }
-
-  nav{
-    background: $main-color-1;
-    grid-area: nav;
-    min-width: 150px;
-    padding: 15px;
-  }
-
   a {
     color: $main-color-2;
     text-decoration: none;
@@ -62,8 +30,4 @@ $font-color-for-dark: #ffffff;
     margin-top: 15px;
   }
 
-  main{
-    grid-area: main;
-    
-  }
 }
