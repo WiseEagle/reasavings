@@ -1,17 +1,16 @@
 import React from 'react';
-
-/*import './App.css';*/
-import "./App.scss"
-import Header from './components/header';
-import Footer from './components/footer';
-import MainContent from './components/main_content';
+import logo from './reasavings-logo.png';
+import './App.css';
+import Header from "./components/Header";
+import Nav from "./components/Navbar";
+import Profile from "./components/Profile";
 
 function App() {
   return (
-    <div id="main-container">
+    <div className="app-wrapper">
       <Header />
-      <MainContent />
-      <Footer />
+      <Nav />
+      <Profile />
     </div>
   );
 }
