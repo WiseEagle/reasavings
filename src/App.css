@@ -1,4 +1,6 @@
 *{margin: 0;padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
 .app-wrapper{
   display: grid;
   grid-template-rows: 60px 1fr;
@@ -7,22 +9,4 @@
   "n c";
   width: 1200px;
   margin: 0 auto;
-}
-
-.header {
- grid-area: h;
-  background: #eeeeee;
-}
-
-.header img {
-  max-height: 100%;
-}
-
-.nav {
-  grid-area: n;
-  border-right: 1px solid #eeeeee;
-}
-
-.content {
-  grid-area: c;
 }
