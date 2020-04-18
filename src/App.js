@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './reasavings-logo.png';
 import './App.css';
-import Header from "./components/Header";
-import Nav from "./components/Navbar";
-import Profile from "./components/Profile";
+import Header from "./components/Header/Header";
+import Nav from "./components/Navbar/Navbar";
+import Profile from "./components/Profile/Profile";
 
 function App() {
   return (
