@@ -19,3 +19,12 @@
   max-height: 100%;
   margin-left: -50%;
 }
+.item a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 10px;
+  background: #163449;
+  padding: 0 6px;
+  border-radius: 3px;
+
+}
