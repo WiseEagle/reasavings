@@ -15,6 +15,8 @@ const MyPosts = () => {
           <Post message="I am learned 15 lessons! We split code Profile to MyPosts an Post"/>
           <Post message="I am learned 16 lessons! We learn properties, we add properties to dynamic component" likeCounter="1"/>
           <Post message="I am learned 17 lessons! We repeat previous lessons and contcepts" likeCounter="1"/>
+          <Post message="I am learned 18 lessons! We add new component for page messages/dialogs" likeCounter="1"/>
+          <Post message="I am learned 19 lessons! We learn react-router-dom and add components to routing" likeCounter="1"/>
       </div>
     </div>
   )

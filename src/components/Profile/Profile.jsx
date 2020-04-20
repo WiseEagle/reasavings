@@ -4,7 +4,7 @@ import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
   return (
-    <div className="content">
+    <div>
       <div>
         <img src="https://www.partyrama.co.uk/wp-content/uploads/2014/02/beach006.jpg" />
       </div>
