@@ -23,3 +23,6 @@
 .postMessage button:hover{
   background: #b66ee9;
 }
+.myPostsBlock h3 {
+  padding: 10px;
+}

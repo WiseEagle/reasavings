@@ -20,7 +20,7 @@
     transition: 0.5s;
 }
 
-.dialog a:hover, .active a{
+.dialog a:hover,.dialog  .active{
     color: #8f63ae;
     padding-left: 15px;
 }
