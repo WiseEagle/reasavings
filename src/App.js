@@ -12,14 +12,16 @@ import News from "./components/News/News";
 import Music from "./components/Music/Music";
 
 
-function App() {
-  return (
+function App(props) {
+
+
+    return (
     <BrowserRouter>
       <div className="app-wrapper">
           <Header />
           <Nav />
           <div className="app-wrapper-content">
-              <Route path="/profile" component={Profile} />
+              <Route path="/profile" component={() => <Profile posts={props.posts}/>} />
               <Route path="/dialogs" component={Dialogs} />
               <Route path="/workout" component={Workout} />
               <Route path="/news" component={News} />
