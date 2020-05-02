@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 let posts =[
+    {id:"13", message:"I am learned 27 lessons! We lear Route attribute render and component and return anonimous function", likeCounter: "1"},
     {id:"12", message:"I am learned 26 lessons! We split code Dialogs into DialogsItem and Messages", likeCounter: "1"},
     {id:"11", message:"I am learned 25 lessons! We learn MAP function", likeCounter: "1"},
     {id:"10", message:"I am learned 24 lessons! We add BLL (business layer logic) in UI,add (objects)", likeCounter: "1"},
