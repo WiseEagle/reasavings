@@ -11,13 +11,19 @@
     color: #707b9d;
     text-decoration: none;
     font-family: 'Fugaz One', cursive;
-    font-size: 20px;
-    border-bottom: 3px solid #707b9d;
+    font-size: 16px;
+    border-bottom: 3px solid #626368;
     display: block;
     text-transform: uppercase;
-    line-height: 13px;
-    padding-top: 15px;
+    line-height: 50px;
     transition: 0.5s;
+    margin-bottom: 10px;
+    background: #eeeeee;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.dialog a span{
+    margin-left: 10px;
 }
 
 .dialog a:hover,.dialog  .active{
@@ -35,4 +41,16 @@
     margin: 10px;
     color: #6b6b6b;
     overflow: hidden;
+}
+
+.imageBlock{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+.imageBlock img {
+    width: 100%;
+    height: initial;
 }
