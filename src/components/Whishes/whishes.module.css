@@ -1,0 +1,15 @@
+.whishesHeader {
+    background: url(https://image.freepik.com/free-vector/_88188-1.jpg) repeat;
+    margin:10px;
+}
+h1 {
+    background-color: #fff;
+    overflow: hidden;
+    display: inline-block;
+    font-weight: bold;
+    color: transparent;
+    font-size: 100px;
+    line-height: 82px;
+    border-bottom: 1px solid #dddddd;
+    font-style: italic;
+}

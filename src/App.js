@@ -11,6 +11,7 @@ import FutureI from "./components/FutureI/FutureI";
 import Settings from "./components/Settings/Settings";
 import News from "./components/News/News";
 import Music from "./components/Music/Music";
+import Whishes from './components/Whishes/Whishes';
 
 
 function App(props) {
@@ -26,6 +27,7 @@ function App(props) {
               <Route path="/dialogs" render = {() => <Dialogs state={props.state.dialogsPage} />} />
               <Route path="/workout" component={Workout} />
               <Route path="/future_i" component={FutureI} />
+              <Route path="/whishes" component={Whishes} />
               <Route path="/news" component={News} />
               <Route path="/music" component={Music} />
               <Route path="/settings" component={Settings} />
