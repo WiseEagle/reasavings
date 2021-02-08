@@ -8,7 +8,8 @@ class Whishes extends Component {
         this.state = {
             error: null,
             isLoaded: false,
-            items: []
+            items: [],
+            sendFulfill: "function(id, note){ fetch(\"http://php.reasavings.top/fulfillWish.php\",{method:\"POST\",body:wish});}"
         };
 
     }
@@ -31,9 +32,11 @@ class Whishes extends Component {
                 }
             )
     }
+    
+    
 
     render() {
-        const { error, isLoaded, items } = this.state;
+        const { error, isLoaded, items, sendFulfill} = this.state;
         if (error) {
             return <p>Error {error.message}</p>
         } else if (!isLoaded) {
@@ -45,7 +48,7 @@ class Whishes extends Component {
                     <ul>
                         {items.map(item => (
                             <li key={item.name}>
-                                {item.ID} | {item.wishName} | <a href={item.wishLink}>link</a> | {item.wishPrice}
+                                {item.ID} | {item.wishName} | <a href={item.wishLink}>link</a> | {item.wishPrice} | {item.wishNote} | <a href="#" >fulfill a dream</a>
                             </li>
                         ))}
                     </ul>
